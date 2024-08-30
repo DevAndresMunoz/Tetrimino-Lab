@@ -1,0 +1,5 @@
+#piece-o :nth-child(1).tet-group {
+    flex-direction: row-reverse;
+    order: 4;
+}
+
