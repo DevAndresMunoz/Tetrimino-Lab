@@ -1,13 +1,10 @@
-.board , .board-change , .tet-group {
-    display: flex;
-    flex-direction: row;
-}
-
-#piece-o :nth-child(1).tet-group {
+#piece-o .tet-group:nth-child(1) {
     flex-direction: row-reverse;
     order: 4;
 }
 
-#piece-i :nth-child(2).tet-group .tet-piece {
-    order: 3;
+#piece-i:nth-child(2) .tet-piece {
+    order: 1;
 }
+
+
