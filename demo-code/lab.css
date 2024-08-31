@@ -1,9 +1,4 @@
-/* .tet-group {
-    display: flex;
-    flex-direction: row;
-} */
-
-#piece-o .tet-group:nth-child(1) {
+#piece-o .tet-group:first-child {
     flex-direction: row-reverse;
     order: 4;
 }
@@ -12,6 +7,6 @@
     order: 1;
 }
 
-#piece-s .tet-group:nth-child(1) {
-    order: ;   
+#piece-s tet-group:first-child {
+    order: 4;   
 }
