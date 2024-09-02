@@ -1,17 +1,24 @@
-/* .tet-group {
-    display: flex;
-    flex-direction: row;
-} */
-
 #piece-o .tet-group:nth-child(1) {
     flex-direction: row-reverse;
-    order: 4;
+    order: 1;
 }
 
 #piece-i .tet-piece {
     order: 1;
 }
 
-#piece-s .tet-group:nth-child(1) {
-    order: ;   
+#piece-s {
+    .tet-group:nth-child(5) {
+        order: 2;
+    }
+    .tet-group:nth-child(1) {
+        order: 1;
+        .inner-block:nth-child(3), .inner-block:nth-child(4) {
+            order:2;
+        }
+        .tet-piece {
+            order:1;
+        }
+    } 
 }
+
