@@ -8,10 +8,10 @@
 }
 
 #piece-s {
-    .tet-group:nth-child(5) {
+    .tet-group:last-child {
         order: 2;
     }
-    .tet-group:nth-child(1) {
+    .tet-group:first-child {
         order: 1;
         .inner-block:nth-child(3), .inner-block:nth-child(4) {
             order:2;
@@ -21,4 +21,6 @@
         }
     } 
 }
+
+
 
