@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #piece-o .tet-group:nth-child(1) {
+=======
+#piece-o .tet-group:first-child {
+>>>>>>> 0ff7e3e9db46da06b740c218b79fb86909386964
     flex-direction: row-reverse;
     order: 1;
 }
@@ -7,6 +11,7 @@
     order: 1;
 }
 
+<<<<<<< HEAD
 #piece-s {
     .tet-group:last-child {
         order: 2;
@@ -20,6 +25,10 @@
             order:1;
         }
     } 
+=======
+#piece-s tet-group:first-child {
+    order: 4;   
+>>>>>>> 0ff7e3e9db46da06b740c218b79fb86909386964
 }
 
 
