@@ -86,10 +86,16 @@
 }
 
 #tet-colors {
-    margin: 20px;
-    li {
+    margin: 25px 15px 20px 15px;
+    ul {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        row-gap: 25px;
+        justify-content: center;
+    }
+
+    li {
+        display: flex;
+        justify-items: space-between;
     }
 }
