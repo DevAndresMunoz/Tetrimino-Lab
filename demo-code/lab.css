@@ -38,4 +38,20 @@
     }
 }
 
+#piece-l {
+    .tet-group:first-child {
+        flex-direction: row-reverse;
+    }
+    .tet-group:nth-child(3) {
+        order: 2;
+    }
+    .tet-group:nth-child(2), .tet-group:nth-child(5) {
+        order: 3;
+    }
+    .tet-group:nth-child(4) {
+        .tet-piece {
+            order: -1;
+        }
+    }
+}
 
