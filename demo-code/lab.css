@@ -84,3 +84,12 @@
     }
     rotate: 270deg;
 }
+
+#tet-colors {
+    margin: 20px;
+    li {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
