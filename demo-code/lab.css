@@ -55,3 +55,13 @@
     }
 }
 
+#piece-j {
+    .tet-group:first-child, .tet-group:nth-child(2) {
+        flex-direction: row-reverse;
+        order: 1;
+    }
+    .tet-group:last-child {
+        order: 2;
+    }
+}
+
