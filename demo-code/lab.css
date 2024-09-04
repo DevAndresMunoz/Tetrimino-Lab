@@ -69,7 +69,7 @@
 
 #piece-t {
     flex-direction: row;
-    
+
     .tet-group {
     flex-direction: column;
     }
@@ -96,17 +96,17 @@
 }
 
 #tet-colors {
-    margin: 25px 15px 20px 15px;
+    margin: 25px 15px;
+
     ul {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         row-gap: 25px;
-        justify-content: center;
     }
-
+    
     li {
         display: flex;
-        column-gap: 20px;
+        justify-content: space-evenly;
     }
 
     .color-preview:hover {
