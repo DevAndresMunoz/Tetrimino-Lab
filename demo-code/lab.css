@@ -116,6 +116,6 @@
     }
 }
 
-main article h2, main p {
+main article h2, main p, .task-box > h2 {
     font-family: initial;
 }
