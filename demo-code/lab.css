@@ -11,6 +11,7 @@
 
 #piece-i .tet-piece {
     order: 1;
+    background-color: #51E2FC;
 }
 
 
@@ -27,6 +28,9 @@
             order: 1;
         }
     } 
+    .tet-piece {
+        background-color: #EA3D1E;
+    }
 }
 
 
@@ -43,6 +47,9 @@
         .tet-piece {
             order: 1;
         }
+    }
+    .tet-piece {
+        background-color: #79AF3D;
     }
 }
 
@@ -62,6 +69,9 @@
             order: -1;
         }
     }
+    .tet-piece {
+        background-color: #F69230;
+    }
 }
 
 
@@ -72,6 +82,9 @@
     }
     .tet-group:last-child {
         order: 2;
+    }
+    .tet-piece {
+        background-color: #F16EB9;
     }
 }
 
@@ -101,6 +114,9 @@
         .tet-piece {
             order: 1;
         }
+    }
+    .tet-piece {
+        background-color: #953693;
     }
 }
 
