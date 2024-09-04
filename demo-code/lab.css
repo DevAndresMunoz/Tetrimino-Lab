@@ -1,6 +1,11 @@
-#piece-o .tet-group:first-child {
+#piece-o {
+    .tet-group:first-child {
     flex-direction: row-reverse;
     order: 1;
+    }
+    .tet-piece {
+        background-color: #FEF94C;
+    }
 }
 
 
