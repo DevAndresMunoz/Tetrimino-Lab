@@ -190,3 +190,10 @@
 main article h2, main p, .task-box > h2 {
     font-family: initial;
 }
+
+
+.task-box {
+    mark, b, i {
+    margin: 0;
+    }
+}
