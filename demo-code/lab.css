@@ -3,9 +3,11 @@
     order: 1;
 }
 
+
 #piece-i .tet-piece {
     order: 1;
 }
+
 
 #piece-s {
     .tet-group:last-child {
@@ -22,6 +24,7 @@
     } 
 }
 
+
 #piece-z {
     .tet-group:first-child {
         flex-direction: row-reverse;
@@ -37,6 +40,7 @@
         }
     }
 }
+
 
 #piece-l {
     .tet-group:first-child {
@@ -55,6 +59,7 @@
     }
 }
 
+
 #piece-j {
     .tet-group:first-child, .tet-group:nth-child(2) {
         flex-direction: row-reverse;
@@ -64,7 +69,6 @@
         order: 2;
     }
 }
-
 
 
 #piece-t {
@@ -95,8 +99,9 @@
     }
 }
 
+
 #tet-colors {
-    margin: 25px 15px;
+    margin: 25px 40px 0 15px;
 
     ul {
         display: flex;
@@ -106,15 +111,60 @@
     
     li {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        align-items: center;
+    }
+        
+    li:first-child div.color-preview {
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: #EA3D1E;
+    }
+    
+    li:nth-child(2) div.color-preview {
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: #F69230;
     }
 
-    .color-preview {
-        height: 10px;
-        width: 10px;
-        background-color: red;
+    li:nth-child(3) div.color-preview {
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: #FEF94C;
     }
+
+    li:nth-child(4) div.color-preview {
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: #79AF3D;
+    }
+
+    li:nth-child(5) div.color-preview {
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: #51E2FC;
+    }
+
+    li:nth-child(6) div.color-preview {
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: #953693;
+    }
+
+    li:nth-child(7) div.color-preview {
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: #F16EB9;
+    }    
 }
+
 
 main article h2, main p, .task-box > h2 {
     font-family: initial;
